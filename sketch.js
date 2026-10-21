@@ -29,7 +29,7 @@ function draw() {
   rect (455, 370, 8, 300);
   rect (57, 370, 8, 300);
 
-    //linha a tremer
+//linha a tremer
   stroke(0);
   strokeWeight(4);
   let y = 205 + random(-3, 3);
