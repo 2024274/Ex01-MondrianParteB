@@ -16,12 +16,6 @@ function draw() {
 //vermelho
   fill (255, 0, 0);
   rect(0, 0, 255, 205);
-
-  //linha a tremer
-  stroke(0);
-  strokeWeight(4);
-  let y = 205 + random(-3, 3);
-  rect(0, y, 600, 13);
  
 //linhas horizontais pretas
   fill (0, 0, 0);
@@ -34,4 +28,10 @@ function draw() {
   rect (255, 0, 8, 600);
   rect (455, 370, 8, 300);
   rect (57, 370, 8, 300);
+
+    //linha a tremer
+  stroke(0);
+  strokeWeight(4);
+  let y = 205 + random(-3, 3);
+  rect(0, y, 600, 13);
 }
