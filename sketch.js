@@ -28,4 +28,10 @@ function draw() {
   rect (255, 0, 8, 600);
   rect (455, 370, 8, 300);
   rect (57, 370, 8, 300);
+
+//linha a tremer
+  stroke(0);
+  strokeWeight(4);
+  let y = 300 + random(-5, 5);
+  line(0, y, 600, y);
 }
