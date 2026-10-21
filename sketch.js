@@ -31,7 +31,6 @@ function draw() {
 
 //linha a tremer
   stroke(0);
-  strokeWeight(4);
   let y = 205 + random(-3, 3);
   rect(0, y, 600, 13);
 }
